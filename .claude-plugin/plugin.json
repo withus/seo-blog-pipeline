@@ -1,0 +1,14 @@
+{
+  "name": "seo-blog-pipeline",
+  "description": "Automatisiertes SEO-Blog-Content-System: Konkurrenzanalyse, Outline, Artikelerstellung, Quality-Check, Bildgenerierung und interne Verlinkung. Unterstützt Multi-Domain via Site-Config.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sven Withus"
+  },
+  "repository": "https://github.com/withus/seo-blog-pipeline",
+  "license": "MIT",
+  "skills": [
+    "./modules/",
+    "./orchestrators/"
+  ]
+}

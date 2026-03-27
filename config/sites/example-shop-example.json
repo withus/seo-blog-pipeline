@@ -1,0 +1,53 @@
+{
+  "site": {
+    "domain": "example-shop.example",
+    "name": "example-shop",
+    "language": "de",
+    "country_code": "de",
+    "protocol": "https"
+  },
+  "content": {
+    "blog_path_patterns": ["/ratgeber/", "/blog/"],
+    "category_path_patterns": ["/katalog/"],
+    "product_path_patterns": ["/produkt/"],
+    "sitemap_url": null,
+    "robots_txt_url": null
+  },
+  "seo": {
+    "primary_topics": [
+      "Gartenmöbel",
+      "Loungemöbel",
+      "Sonnenschirme",
+      "Sonnensegel",
+      "Teakholz",
+      "Gartentische",
+      "Gartenstühle",
+      "Balkonmöbel",
+      "Möbelpflege"
+    ],
+    "brand_terms": ["example-shop", "example-shop.example"],
+    "gsc_property": "sc-domain:example-shop.example",
+    "ahrefs_target": "example-shop.example"
+  },
+  "style": {
+    "tone": "du-form",
+    "style_guide": "/config/style-guide.md",
+    "blacklist": "/config/blacklist-words.md"
+  },
+  "competitors": [
+    {"domain": "garten-beispiel-eins.example", "note": "Direkter Wettbewerber, ähnliches Sortiment"},
+    {"domain": "garten-beispiel-zwei.example", "note": "Großer Gartenmöbel-Shop"},
+    {"domain": "garten-beispiel-drei.example", "note": "Spezialist für Sonnenschutz"}
+  ],
+  "internal_linking": {
+    "max_links_per_article": 7,
+    "min_links_per_article": 3,
+    "prefer_categories_over_products": true,
+    "known_urls": [
+      {"url": "/katalog/gartentische", "type": "category", "title": "Gartentische für Terrasse und Balkon"},
+      {"url": "/katalog/sonnenschirme", "type": "category", "title": "Sonnenschirme und Zubehör"},
+      {"url": "/produkt/teak-gartentisch-oval", "type": "product", "title": "Teak-Gartentisch oval"},
+      {"url": "/produkt/lounge-set-vierteilig", "type": "product", "title": "Lounge-Set vierteilig"}
+    ]
+  }
+}
